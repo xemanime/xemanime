@@ -1,0 +1,122 @@
+body
+{
+	font-family: Tahoma,Calibri,Verdana,Geneva,sans-serif;
+	margin:0;
+	background: rgb(204, 204, 204);
+}
+#wrapper
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+#header
+{
+	height: 397px;
+	background:url(img/bg.jpg) center;
+	box-shadow: 0 0 10px 1px;
+}
+#logo-wrapper
+{
+	background:url(img/bg2.jpg);
+	width: 1000px;
+	height: 397px;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+}
+
+#nav
+{
+	width: 550px;
+	position: absolute;
+	left: 0px;
+	bottom: 35px;
+}
+#wrapper
+{
+	width:1000px;
+	padding-top: 30px;
+        display: flex;
+}
+#contain
+{
+	float: left;
+	width: 685px;
+	background: rgb(231, 231, 231);
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+	border: 1px solid #eee;
+	-webkit-border: 15px 15px 15px 15px;
+	padding: 7px 0px 7px 0px;
+	margin: 0 7px 7px 0;
+}
+.main-title
+{
+	border-radius: 2px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #C7C7C7;
+	padding: 5px 0 13px 24px;
+	font-size: 28px;
+}
+.main-contain
+{
+	padding: 15px;
+	line-height: 28px;
+}
+#s-left
+{
+	text-align: center;
+	float: right;
+	width: 300px;
+}
+.sidebar
+{
+	background: rgb(231, 231, 231);
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+	border: 1px solid #eee;
+	-webkit-border: 15px 15px 15px 15px;
+	padding: 7px 0px 7px 0px;
+	margin: 0 0 7px 0;
+}
+.s-title
+{
+	border-radius: 2px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #C7C7C7;
+	padding: 0px 0 7px 0;
+	font-size: 28px;
+}
+p
+{
+	margin-left: 60px;
+    	line-height: 1.5em;
+}
+p.hd
+{
+    	margin-left: 10px;
+    	padding-left: 50px;
+    	background: url(img/click.png) no-repeat 0;
+    	background-size: 20px;
+    	color: #ca7010;
+    	font-size: 20px;
+    	line-height: 2em;
+}	
+img{
+	max-width: 640px;
+}
+h.h-title
+{
+	padding-left: 50px;
+    	padding-top: 20px;
+    	padding-bottom: 20px;
+    	background: url(img/title.png) no-repeat 0;
+    	background-size: 40px;
+    	color: #ca7010;
+    	line-height: 2em;
+    	font-size: 25px;
+}
